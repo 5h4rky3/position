@@ -1,0 +1,194 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+	<script src= 
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"> 
+	</script> 
+	
+	<script> 
+		$(document).ready(function() { 
+			$("button").click(function() { 
+				var x = $("form").serializeArray(); 
+				$.each(x, function(i, field) {
+				    // if(field.value=='Ahmed'){alert("heyyyy");} 
+				    switch(field.value){
+				    	case '18CSE30': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 1"); 
+				    					break;
+				    	case '18CSE13': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 2"); 
+				    					break;
+				    	case '18CSE50': case '18CSE36': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 3"); 
+				    					break;
+				    	case '18CSED58': case '18CSE15': case '18CSE03': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 4"); 
+				    					break;
+				    	case '18CSE23': case '18CSE17': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 5"); 
+				    					break;
+				    	case '18CSE33': case '18CSE29': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 6"); 
+				    					break;
+				    	case '18CSE10': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 7"); 
+				    					break;
+				    	case '18CSE18': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 8"); 
+				    					break;
+				    	case '18CSE48':case '18CSE35': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 9"); 
+				    					break;
+				    	case '18CSE54':case '18CSE43':case '18CSE11': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 10"); 
+				    					break;
+				    	case '18CSE49': case '18CSE05': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 11"); 
+				    					break;
+				    	case '18CSE51':case '18CSE28': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 12"); 
+				    					break;
+
+
+				    	case '18CSE24': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 13"); 
+				    					break;
+				    	case '18CSE32': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 14"); 
+				    					break;
+				    	case '18CSED59':case '18CSE45': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 15"); 
+				    					break;
+				    	case '18CSE46': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 16"); 
+				    					break;
+				    	case '18CSE01': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 17"); 
+				    					break;
+				    	case '18CSED66': case '18CSE31':case '18CSE02':$("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 18"); 
+				    					break;
+
+
+				    	case '18CSE12': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 19"); 
+				    					break;
+				    	case '18CSE44': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 20"); 
+				    					break;
+				    	case '18CSED60': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 21"); 
+				    					break;
+				    	case '18CSE37': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 22"); 
+				    					break;
+				    	case '18CSE21': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 23"); 
+				    					break;
+				    	case '18CSE55': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 24"); 
+				    					break;
+				    	case '18CSE42':case '18CSE34':case '18CSE38':case '18CSE25': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 25"); 
+				    					break;
+				    	case '18CSED61':case '18CSE52':case '18CSE47': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 26"); 
+				    					break;
+				    	case '18CSE62':case '18CSED57':case '18CSE41':case '18CSE09': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 27"); 
+				    					break;
+				    	case '18CSE26':case '18CSE19': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 28"); 
+				    					break;
+				    	case '18CSE27': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 29"); 
+				    					break;
+				    	case '18CSE20':case '18CSE22':case '18CSE14':case '18CSE56': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 30"); 
+				    					break;
+				    	case '18CSE16': case '18CSE07': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 31"); 
+				    					break;
+				    	case '18CSE08': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 32"); 
+				    					break;
+				    	case '18CSE06': case '18CSE39':$("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 33"); 
+				    					break;
+				    	case '18CSE04': $("#output").append("Roll " + ":" 
+							+ field.value + " " + "<br>"+" Your Position is 34"); 
+				    					break;
+				    	default : $("#output").append("Please enter correct roll no. <br>Example: 18CSE38");
+				    	
+				    	
+				    	
+
+
+
+				    }
+					 
+				}); 
+			}); 
+		}); 
+	</script> 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	
+	<style> 
+		#GFG { 
+			width: 300px; 
+			padding: 50px; 
+			height: 150px; 
+			border: 2px solid green; 
+		} 
+		h3{
+
+		}
+	</style> 
+	<style>
+body {
+  background-image: url('abc.png');
+}
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+</style>
+</head> 
+
+<body> 
+<h2 style="text-align: center;">Rank Predictor -By Ahmed Raza Productions.</h2><br>
+<h2 style="text-align: center;">[Implemented in m-Way Tree]</h2>
+	<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div id="GFG" class="center"> 
+		
+		<form action="#"> 
+			<h3>Total Students: 62</h3><br>
+			<b>Enter Your Roll no. in Capitals</b> <br>
+			<b>Example: 18CSE27</b><br>
+			<b>Your Roll no.: </b><input type="text"
+				style="margin: 10px;" name="Name"> 
+			<br> 
+		</form> 
+
+		<button class="btn btn-success">Submit</button> 
+	</div> 
+    <br><br><br><br><br><br><br><br>
+	<div id="output"  class="center"></div>
+		</div>
+	</div>
+</div>
+
+
+	 
+</body> 
+
+</html> 
